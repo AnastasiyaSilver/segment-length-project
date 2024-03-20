@@ -13,7 +13,6 @@ public class Service {
         double x2 = scan.nextDouble();
         System.out.println("Enter the y coordinate for point B:");
         double y2 = scan.nextDouble();
-        double length = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
-        return length;
+        return Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
     }
 }
